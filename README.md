@@ -1,4 +1,4 @@
-🚀 SSH Master Pro v2.0
+🚀 SSH Master v2.0
 
 SSH Master Pro je vysoce efektivní, bezpečný a lehký terminálový správce (TUI) pro SSH připojení, napsaný v čistém jazyce C. Byl navržen pro systémové administrátory a vývojáře, kteří hledají bleskovou alternativu k těžkopádným GUI aplikacím.
 ✨ Klíčové Funkce (Functionality)
@@ -63,9 +63,8 @@ git clone https://github.com/TVOJE-JMENO/SSH-Master-Pro.git
 cd SSH-Master-Pro
 
 Zkompilujte aplikaci (včetně ikony):
-Bash
 
-make
+    make
 
 Spusťte program:
 Bash
@@ -73,14 +72,13 @@ Bash
     ./SSH_Master.exe
 
 📁 Struktura Projektu
-Plaintext
 
-├── main.c           # Jádro aplikace (TUI logika, šifrování, SSH operace)
-├── resource.rc      # Definice ikon a systémových prostředků
-├── icon.ico         # Ikona aplikace
-├── Makefile         # Automatizovaný build skript
-├── README.md        # Tato dokumentace
-└── .gitignore       # Definice souborů ignorovaných verzovacím systémem
+    ├── main.c           # Jádro aplikace (TUI logika, šifrování, SSH operace)
+    ├── resource.rc      # Definice ikon a systémových prostředků
+    ├── icon.ico         # Ikona aplikace
+    ├── Makefile         # Automatizovaný build skript
+    ├── README.md        # Tato dokumentace
+    └── .gitignore       # Definice souborů ignorovaných verzovacím systémem
 
 📝 Licence a Příspěvky
 
