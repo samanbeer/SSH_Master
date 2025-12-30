@@ -11,3 +11,4 @@ config.dat
 # Dočasné soubory VS Code
 .vscode/
 *.log
+nul
