@@ -1,0 +1,13 @@
+# Spustitelné soubory (binárky)
+*.exe
+*.o
+*.obj
+resource.o
+
+# Konfigurační data (obsahující vaše servery!)
+config.dat
+.ssh_master/
+
+# Dočasné soubory VS Code
+.vscode/
+*.log
