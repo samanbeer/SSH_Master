@@ -4,13 +4,13 @@ SSH Master Pro je vysoce efektivní, bezpečný a lehký terminálový správce 
 ✨ Klíčové Funkce (Functionality)
 1. Interaktivní TUI (Text User Interface)
 
-    Zero-Flicker Rendering: Aplikace využívá přímé adresování kurzoru přes windows.h, čímž eliminuje blikání typické pro standardní konzolové programy.
+   Zero-Flicker Rendering: Aplikace využívá přímé adresování kurzoru přes windows.h, čímž eliminuje blikání typické pro standardní konzolové programy.
 
     Intuitivní Navigace: Plná podpora šipek na klávesnici pro pohyb v menu a klávesových zkratek (ENTER pro spojení, DEL pro smazání, ESC pro ukončení).
 
     Dynamické Menu: Seznam serverů se automaticky překresluje a centruje podle aktuálního počtu uložených uzlů.
 
-2. Inteligentní SSH Automatizace
+3. Inteligentní SSH Automatizace
 
     Passwordless Experience: Program automaticky detekuje přítomnost SSH klíčů. Pokud chybí, vygeneruje nový 2048-bitový RSA pár.
 
@@ -18,7 +18,7 @@ SSH Master Pro je vysoce efektivní, bezpečný a lehký terminálový správce 
 
     Native Integration: Využívá vestavěný OpenSSH klient ve Windows, nevyžaduje instalaci PuTTY ani jiných nástrojů třetích stran.
 
-3. Workflow & Automatizace
+4. Workflow & Automatizace
 
     Clean Session Management: Po odhlášení ze vzdáleného serveru aplikace automaticky ukončí svůj proces, čímž šetří systémové prostředky.
 
@@ -48,7 +48,7 @@ Bezpečnost byla při vývoji prioritou. Program je navržen tak, aby minimalizo
 🛠️ Instalace a Sestavení (Build)
 
 Projekt obsahuje Makefile pro snadnou kompilaci pomocí GCC (MinGW).
-Požadavky
+Požadavky:
 
     Kompilátor GCC (součást MinGW-w64).
 
@@ -56,20 +56,17 @@ Požadavky
 
 Postup sestavení
 
-    Klonujte repozitář:
-    Bash
-
-git clone https://github.com/TVOJE-JMENO/SSH-Master-Pro.git
-cd SSH-Master-Pro
+    git clone https://github.com/TVOJE-JMENO/SSH-Master-Pro.git
+    cd SSH-Master-Pro
 
 Zkompilujte aplikaci (včetně ikony):
 
     make
 
 Spusťte program:
-Bash
 
     ./SSH_Master.exe
+    Nebo double-click
 
 📁 Struktura Projektu
 
@@ -79,7 +76,3 @@ Bash
     ├── Makefile         # Automatizovaný build skript
     ├── README.md        # Tato dokumentace
     └── .gitignore       # Definice souborů ignorovaných verzovacím systémem
-
-📝 Licence a Příspěvky
-
-Tento projekt je open-source. Příspěvky (Pull Requesty) jsou vítány! Pokud najdete chybu nebo máte nápad na vylepšení, neváhejte otevřít Issue.
