@@ -9,8 +9,12 @@ SSH Master Pro je vysoce efektivní, bezpečný a lehký terminálový správce 
     Intuitivní Navigace: Plná podpora šipek na klávesnici pro pohyb v menu a klávesových zkratek (ENTER pro spojení, DEL pro smazání, ESC pro ukončení).
 
     Dynamické Menu: Seznam serverů se automaticky překresluje a centruje podle aktuálního počtu uložených uzlů.
+   <img width="731" height="513" alt="image" src="https://github.com/user-attachments/assets/fc3adafc-1d6d-447d-9916-469d062bd6ab" />
+   <img width="534" height="198" alt="image" src="https://github.com/user-attachments/assets/c02cba06-e801-4111-b287-6a569f8b5692" />
 
-2. Inteligentní SSH Automatizace
+
+
+3. Inteligentní SSH Automatizace
 
     Passwordless Experience: Program automaticky detekuje přítomnost SSH klíčů. Pokud chybí, vygeneruje nový 2048-bitový RSA pár.
 
@@ -18,7 +22,7 @@ SSH Master Pro je vysoce efektivní, bezpečný a lehký terminálový správce 
 
     Native Integration: Využívá vestavěný OpenSSH klient ve Windows, nevyžaduje instalaci PuTTY ani jiných nástrojů třetích stran.
 
-3. Workflow & Automatizace
+4. Workflow & Automatizace
 
     Clean Session Management: Po odhlášení ze vzdáleného serveru aplikace automaticky ukončí svůj proces, čímž šetří systémové prostředky.
 
