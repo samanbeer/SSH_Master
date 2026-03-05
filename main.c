@@ -11,7 +11,6 @@
 #define MAX_PATH_LEN 512
 #define ENCRYPT_KEY 0xAF
 
-// --- COLOR PALETTE ---
 #define COL_FRAME 9
 #define COL_CYAN 11
 #define COL_GREEN 10
@@ -31,8 +30,6 @@ typedef struct {
 Server servery[MAX_SERVERS];
 int pocetServeru = 0;
 char configPath[MAX_PATH_LEN];
-
-// --- POMOCNÉ FUNKCE ---
 
 void setCol(int color) {
   SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), color);
